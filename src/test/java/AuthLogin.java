@@ -69,7 +69,7 @@ public class AuthLogin {
                 throw new RuntimeException("Failed to process response body", e);
             }
 
-            // Assert that the status code is 200
+            // Assert that the status code is 200..
             Assert.assertEquals(statusCode, 200);
         } else {
             System.out.println("Unexpected response content type: " + contentType);
