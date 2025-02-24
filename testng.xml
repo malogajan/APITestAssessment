@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QMART VIP RATE">
+    <test name="QVIP Automation Testing">
+        <classes>
+            <class name="AuthLogin"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

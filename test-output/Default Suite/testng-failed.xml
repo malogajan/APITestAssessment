@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="APITestAssessment(failed)">
+    <classes>
+      <class name="AuthLogin">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- AuthLogin -->
+    </classes>
+  </test> <!-- APITestAssessment(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
