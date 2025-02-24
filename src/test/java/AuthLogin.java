@@ -45,13 +45,13 @@ public class AuthLogin {
             ObjectMapper mapper = new ObjectMapper();
 
             try {
-                // Parse response as JSON
+                // Parse response as JSON.....
                 JsonNode jsonNode = mapper.readTree(responseBody);
 
                 if (jsonNode.has("token")) {
                     JsonNode tokensNode = jsonNode.get("token");
 
-                    // QMAPI has different structure to retrieve token
+                    // QMAPI has different structure to retrieve token//
                     if (tokensNode.has("JWT")) {
                         String accessToken = tokensNode.get("JWT").asText();
 
